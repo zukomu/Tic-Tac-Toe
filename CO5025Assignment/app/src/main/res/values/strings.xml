@@ -1,0 +1,24 @@
+<resources>
+    <string name="app_name">CO5025 Assignment</string>
+    <string name="cashEmoji">💵</string>
+    <string name="youLose">YOU LOSE</string>
+    <string name="youWin">YOU WIN</string>
+    <string name="draw">DRAW</string>
+    <string name="logout">logout</string>
+    <string name="login">login</string>
+    <string name="loginError">Incorrect username or password</string>
+    <string name="daymode">daymode</string>
+    <string name="nightmode">nightmode</string>
+    <string name="notLoggedIn">Player Info - Player not logged in</string>
+    <string name="playerInfo">Player Info - </string>
+    <string name="gamesWon">games won: </string>
+    <string name="gamesPlayed">games played:</string>
+    <string name="gamesLost">games lost: </string>
+    <string name="draws">draws: </string>
+    <string name="winPercentage">win percentage: </string>
+    <string name="winStreak">current win streak: </string>
+    <string name="highestWinStreak">highest win streak: </string>
+    <string name="difficultyEasy">difficulty - Easy</string>
+    <string name="difficultyMedium">difficulty - Medium</string>
+    <string name="difficultyHard">difficulty - Hard</string>
+</resources>

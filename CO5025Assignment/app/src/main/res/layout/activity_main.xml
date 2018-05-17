@@ -1,0 +1,182 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    tools:context="com.example.a1420142.co5025assignment.MainActivity">
+
+    <Button
+        android:text="X"
+        android:layout_height="150dp"
+        android:textSize="70dp"
+        android:textColor="@color/textColour"
+        android:background="@color/colorPrimary"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="80dp"
+        android:id="@+id/NW"
+        android:layout_width="150dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentStart="true" />
+    <Button
+        android:text="Button"
+        android:layout_height="150dp"
+        android:textSize="70dp"
+        android:textColor="@color/textColour"
+        android:background="@color/colorPrimary"
+        android:layout_marginStart="200dp"
+        android:layout_marginTop="80dp"
+        android:id="@+id/N"
+        android:layout_width="150dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentStart="true" />
+    <Button
+        android:text="Button"
+        android:layout_height="150dp"
+        android:textSize="70dp"
+        android:layout_marginStart="380dp"
+        android:layout_marginTop="80dp"
+        android:id="@+id/NE"
+        android:textColor="@color/textColour"
+        android:background="@color/colorPrimary"
+        android:layout_width="150dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentStart="true" />
+    <Button
+        android:text="Button"
+        android:layout_height="150dp"
+        android:textSize="70dp"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="260dp"
+        android:id="@+id/W"
+        android:textColor="@color/textColour"
+        android:background="@color/colorPrimary"
+        android:layout_width="150dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentStart="true" />
+    <Button
+        android:text="Button"
+        android:layout_height="150dp"
+        android:textSize="70dp"
+        android:layout_marginStart="200dp"
+        android:layout_marginTop="260dp"
+        android:textColor="@color/textColour"
+        android:background="@color/colorPrimary"
+        android:id="@+id/C"
+        android:layout_width="150dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentStart="true" />
+    <Button
+        android:text="Button"
+        android:layout_height="150dp"
+        android:textSize="70dp"
+        android:layout_marginStart="380dp"
+        android:textColor="@color/textColour"
+        android:background="@color/colorPrimary"
+        android:layout_marginTop="260dp"
+        android:id="@+id/E"
+        android:layout_width="150dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentStart="true" />
+    <Button
+        android:text="Button"
+        android:layout_height="150dp"
+        android:textSize="70dp"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="440dp"
+        android:textColor="@color/textColour"
+        android:background="@color/colorPrimary"
+        android:id="@+id/SW"
+        android:layout_width="150dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentStart="true" />
+    <Button
+        android:text="Button"
+        android:textSize="70dp"
+        android:layout_height="150dp"
+        android:layout_marginStart="200dp"
+        android:layout_marginTop="440dp"
+        android:textColor="@color/textColour"
+        android:background="@color/colorPrimary"
+        android:id="@+id/S"
+        android:layout_width="150dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentStart="true" />
+    <Button
+        android:text="Button"
+        android:textSize="70dp"
+        android:layout_height="150dp"
+        android:textColor="@color/textColour"
+        android:background="@color/colorPrimary"
+        android:layout_marginStart="380dp"
+        android:layout_marginTop="440dp"
+        android:id="@+id/SE"
+        android:layout_width="150dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentStart="true" />
+
+    <Button
+        android:text="Have the computer go first"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@color/textColour"
+        android:background="@color/colorPrimary"
+        android:id="@+id/changeFirstPlayer"
+        android:layout_alignBottom="@+id/Results"
+        android:layout_alignStart="@+id/SW"
+        android:layout_marginStart="46dp" />
+
+    <Button
+        android:text="Reset Game"
+        android:textSize="30dp"
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/Reset"
+        android:textColor="@color/textColour"
+        android:background="@color/colorPrimary"
+        android:layout_below="@+id/SE"
+        android:layout_alignStart="@+id/SE"
+        android:layout_marginTop="21dp" />
+
+    <Button
+        android:text=""
+        android:textSize="45dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/home"
+        android:textColor="@color/textColour"
+        android:background="@color/colorPrimary"
+        android:layout_below="@+id/changeFirstPlayer"
+        android:layout_alignStart="@+id/SW"
+        android:layout_marginTop="41dp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignEnd="@+id/SW" />
+
+    <TextView
+        android:text="currencyOutput"
+        android:textSize="25dp"
+        android:layout_width="wrap_content"
+        android:textColor="@color/textColour"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_alignStart="@+id/NW"
+        android:layout_marginTop="30dp"
+        android:id="@+id/currencyOutput" />
+
+    <TextView
+        android:text="You Win/Lose"
+        android:textSize="60dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@color/textColour"
+        android:id="@+id/Results"
+        android:layout_alignBottom="@+id/Reset"
+        android:layout_alignParentStart="true" />
+
+</RelativeLayout>
+
